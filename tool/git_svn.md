@@ -12,7 +12,6 @@ svn mkdir -m "create new project" http://path/NewProject http://path/NewProject/
 ``` bash
 cd /path/to/git/localrepo
 git svn init http://path/NewProject -s
-git reset --hard remotes/origin/trunk
 git svn fetch
 git svn rebase origin/trunk
 git svn dcommit
