@@ -13,7 +13,7 @@ svn mkdir -m "create new project" http://path/NewProject http://path/NewProject/
 cd /path/to/git/localrepo
 git svn init http://path/NewProject -s
 git svn fetch
-git svn rebase origin/trunk
+git rebase origin/trunk
 git svn dcommit
 ```
 
